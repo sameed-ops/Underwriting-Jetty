@@ -1,0 +1,18 @@
+{
+  "wordmark": "CHAPRA",
+  "legal_name": "Chapra Ekonomik Araştırma Teknoloji ve Danışmanlık Hizmetleri Limited Şirketi",
+  "short_name": "Chapra Ekonomik Araştırma Ltd. Şti.",
+  "address_lines": ["Esentepe Mah. Büyükdere Cad.", "Kanyon No: 185 İç Kapı No: 6", "Şişli / İstanbul, Türkiye"],
+  "address_one_line": "Esentepe Mah. Büyükdere Cad. Kanyon No: 185 İç Kapı No: 6, Şişli / İstanbul, Türkiye",
+  "web": "www.chapraandco.com",
+  "email": null,
+  "phone": null,
+  "tax_office": "Zincirlikuyu",
+  "tax_no": "2091972615",
+  "mersis": "0209197261500001",
+  "trade_registry": "İstanbul Ticaret Sicili 1168927",
+  "signatory": {"name": "Aarifah Loonat", "title": "Müdür (Manager)"},
+  "bank": {"beneficiary": "Chapra Ekonomik Araştırma Teknoloji ve Danışmanlık Hizmetleri Ltd. Şti.",
+           "bank_name": null, "branch": null, "bank_address": null, "iban": null, "swift": null,
+           "account_currency": "USD", "intermediary": null}
+}

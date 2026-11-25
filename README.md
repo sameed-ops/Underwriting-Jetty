@@ -21,6 +21,8 @@ The tools find candidates. The verdict remains a judgement on the evidence, and 
 | `tools/pdf_forensics.py` | Metadata, producer class, date gaps, incremental saves, XMP history, font outliers, white-box overlays |
 | `tools/statement_recon.py` | Ledger rebuilt from running balances, constant and step offsets, summary reconciliation, monthly flows, conduct flags, hidden loans, concentration. Generic, M-Pesa and CSV formats |
 | `tools/credit_model.py` | Eight-pillar Index, caps, bands, calculated tests and indicative facility (CLAUDE.md section 5) |
+| `tools/docs/` | Turkish entity letterhead, statutory footer and bilingual pro forma invoice generator (`invoice.py deals/<CODE>/invoice.json`) |
+| `playbook/invoicing.md` | Invoicing rules: pro forma vs e-Arşiv, VAT exemption for service exports, Kenyan withholding gross-up, wire details |
 | `tests/selftest.py` | Synthetic, Illustrative tests: clean statement, +600 constant shift, mid-statement step, and a case like Blossom |
 | `playbook/rates.md` | Market check of the assumed rates (25 Nov 2026), proposed for approval |
 | `playbook/advanced_red_flags.md` | Forensic, cash-flow and structural patterns beyond section 6, plus sector cycles |
