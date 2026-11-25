@@ -1,0 +1,9 @@
+# Borrower documents and working files never leave this container.
+deals/*
+!deals/README.md
+*.pdf
+*.xlsx
+*.csv
+*.txt
+!requirements.txt
+__pycache__/
