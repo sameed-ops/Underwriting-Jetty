@@ -46,7 +46,8 @@ DESKTOP_EDITORS = [
     "preview", "quartz pdfcontext", "libreoffice", "openoffice", "pdfescape",
     "pdf-xchange", "pdfelement", "wondershare", "adobe acrobat pro",
     "acrobat pro", "pdf candy", "pdf24", "soda pdf", "inkscape", "photoshop",
-    "illustrator", "google docs", "wps",
+    "illustrator", "google docs", "wps", "print to pdf", "microsoft: print",
+    "intsig", "camscanner", "3-heights", "pdf merge split",
 ]
 NAME_HINTS = ["unprotected", "unlock", "decrypt", "compressed", "edited", "copy", "final"]
 
@@ -178,6 +179,10 @@ def run(path, password=None):
     producer = info.get("Producer", "") or xmp.get("pdf:Producer", "")
     creator = info.get("Creator", "") or xmp.get("xmp:CreatorTool", "")
     pc, cc = classify_producer(producer), classify_producer(creator)
+    title = info.get("Title", "")
+    if re.search(r"\.(xlsx?|docx?|pptx?)$", title, re.I):
+        cc = "desktop_editor"
+        findings.append(("major", f"Title is an office file name ('{title}'): the PDF was printed from a spreadsheet or document, not issued by a system."))
     report["producer_class"], report["creator_class"] = pc, cc
     if "desktop_editor" in (pc, cc):
         findings.append(("major", f"Desktop editor in metadata (Producer='{producer}', "

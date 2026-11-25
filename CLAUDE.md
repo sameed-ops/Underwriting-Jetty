@@ -168,6 +168,13 @@ KYC on every director and 25%+ beneficial owner, PEP status, and sanctions scree
 | Claimed cross-border sourcing with no foreign numbers or FX flows | Blossom "Tanzania" claim | Unsupported; restate the proposal or evidence it |
 | Request above a full year of receipts | Blossom KES 36M against KES 29.2M | Fails on scale and capacity; resize |
 | School fees, rent, medical and construction paid from trading accounts | Blossom | Commingling; note it, and ask for separation of accounts |
+| "Audited accounts" printed to PDF from Excel by the borrower; balance sheet does not balance; directors' report and P&L show different profits | Gold Ark FY2025 (gap KES 8.67M) | Critical; ask the auditor to confirm and send signed accounts direct |
+| Expense lines that are an exact constant multiple of the prior year (0.925x) | Gold Ark FY2024 | Templated figures; treat the accounts as unaudited |
+| Company business run through a director's personal SACCO account; the company's own bank account withheld | Gold Ark (Amica personal account, KCB company account not supplied) | Demand all company accounts; size only on flows that are clearly business |
+| Personal SACCO loan booked as company borrowing, with the facility asked to repay it | Gold Ark (Amica KES 15M, Aug 2025) | Not new capacity; it moves debt. Confirm the balance by lender letter |
+| Many identical round transfers to one individual on one day | Gold Ark (10 x KES 100k, 12 Oct 2026) | Ask who and why before going further |
+| Revenue declared with no VAT or PAYE obligation on the KRA PIN | Gold Ark | Contingent tax exposure; require a TCC and an iTax obligations printout |
+| Greenfield project funded 100% by debt, with no promoter equity | Gold Ark hotel (KES 45M) | Require 30% to 40% promoter cash equity, or decline the project element |
 
 ## 7. Intermediary rules (protect Sameed)
 
@@ -266,6 +273,20 @@ Example: the COTRISEL Second Request. Chapra & Co. letterhead, formal register, 
   - activity collapsing from March 2026;
   - no evidence of Tanzanian sourcing.
 - **Possible path:** a KES 5M to 8M pilot against certified warehouse receipts, with millers paying the lender directly, after the 10 conditions are met. The explanation of Statement_8 is the gate.
+
+### Gold Ark Restaurant Ltd (Kenya, restaurants plus a planned hotel), ref CC/GAR/2026/001
+
+- **Request (pack received 25 Nov 2026):** a KES 45M, 60-month term loan, which the projection prices at 12% and references as an Ecobank budget. Uses: repay Amica SACCO, KES 12.46M; refundable lease deposit, KES 10M; fit-out of an 82-room leased hotel on Gaberone Road, Nairobi, KES 17.9M; the balance on pre-opening costs.
+- **Real:** the company was incorporated on 14 Nov 2024 with two 50/50 directors (Harun Macharia Gichuhi and Karimi Lucy Andrew). The CR12, IDs and PINs agree with one another. Harun's personal Amica statement (Jan 2025 to Oct 2026) reconciles to the cent. Inflows were KES 53.6M over the last 12 months, about KES 6.1M a month in Q3 2026, and rising. Salaries for the Tom Mboya and Tsavo branches are visible. There are no overdrafts or returned items, and Amica has been serviced.
+- **Against:**
+  - the FY2025 "audited" accounts do not balance (KES 8.67M gap) and were printed from Excel;
+  - the FY2024 accounts are a sole proprietorship with templated lines;
+  - declared FY2025 revenue is 2.5x the bank inflows for CY2025;
+  - the company KCB account was not supplied;
+  - there is no VAT or PAYE obligation on the PIN;
+  - no promoter equity is committed to the hotel;
+  - DSCR on the existing business is about 0.56x at 16%.
+- **Status:** screened. Index 30, "Not yet fundable" at KES 45M; do not forward. A possible path is about KES 12.5M to 15M to refinance Amica and fund equipment, after the integrity gates are met. The hotel needs equity or a separate structure.
 
 ### COTRISEL (Brazil, cooperative refinancing)
 

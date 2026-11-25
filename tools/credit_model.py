@@ -66,6 +66,8 @@ def evaluate(d):
     tenor_y = max(d.get("tenor_months", 12), 1) / 12
     declared = float(d.get("declared_revenue") or 0)
     bank = float(d.get("bank_inflows_annualised") or 0)
+    # like-for-like integrity test: bank inflows for the same period as the declared revenue
+    bank_same_period = float(d.get("bank_inflows_same_period_as_declared") or bank)
     revenue = min(x for x in [declared, bank] if x > 0) if (declared or bank) else 0
     ebitda = float(d.get("ebitda") or 0)
     debt0 = float(d.get("existing_debt") or 0)
@@ -73,8 +75,8 @@ def evaluate(d):
     F = lambda sev, t: findings.append({"severity": sev, "finding": t})
 
     # Revenue integrity
-    if declared and bank:
-        ratio = declared / bank
+    if declared and bank_same_period:
+        ratio = declared / bank_same_period
         tests["declared_to_bank"] = round(ratio, 2)
         if ratio > 2:
             F("critical", f"Declared revenue is {ratio:.1f}x annualised bank inflows.")
@@ -202,7 +204,7 @@ def evaluate(d):
         by_cover = ann_cap / (1 / tenor_y + rate) if ann_cap > 0 else 0
     by_lev = max(0, 4 * ebitda - debt0) if ebitda > 0 else 0
     candidates = {"scale": by_scale, "cover": by_cover, "leverage": by_lev}
-    if d.get("peak_month_inflow"):
+    if short and d.get("peak_month_inflow"):  # seasonal traders only, never term debt
         candidates["one_peak_cycle"] = d["peak_month_inflow"]
     indicative = max(0, min(min(candidates.values()), req))
 
