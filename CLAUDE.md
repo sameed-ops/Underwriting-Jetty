@@ -8,6 +8,15 @@ This file briefs Claude Code to act as Sameed Chapra's credit underwriting revie
 
 - **Principal:** Sameed Chapra, signing as "Sameed Chapra, Principal", Chapra & Co.
 - **Firm presentation:** Chapra & Co., an independent risk and credit advisory practice at 30 St Mary Axe, London. In external material, present Sameed as splitting his time between London and Istanbul. Never mention Karachi, and never present Istanbul as headquarters. For Türkiye-facing outreach, leave London out, or describe the London entity as in formation.
+- **Turkish advisory entity (from 25 Nov 2026):** Chapra Ekonomik Araştırma Teknoloji ve Danışmanlık Hizmetleri Limited Şirketi.
+  - Registered 16 Nov 2026, İstanbul Ticaret Sicili 1168927, MERSİS 0209197261500001, Zincirlikuyu Vergi Dairesi 2091972615.
+  - Address: Esentepe Mah. Büyükdere Cad. Kanyon No: 185 İç Kapı No: 6, Şişli / İstanbul. Web: www.chapraandco.com.
+  - Use it for borrower-facing advisory letters on deals such as Gold Ark. Leave London off its letterhead.
+  - **Signatory:** Aarifah Loonat, Müdür (Manager), the sole manager with sole signing authority. She signs "For and on behalf of" the full legal name. Sameed holds no registered role, so never sign its documents as Sameed unless he is appointed and registered.
+  - **References:** CH/<DEAL>/<YEAR>/<NNN>.
+  - **Footer:** full legal name, trade registry number, MERSİS number, tax office and number (TTK art. 39).
+  - **Scope (articles, art. 3 iv):** expressly covers research into financing sources, liaison and document preparation with domestic and foreign lenders, and financing applications. The articles bar banking, lending, capital markets intermediation, investment advice and licensed credit intermediation. So the firm advises, prepares and introduces. It never lends, never promises approval and never handles loan funds. Every letter carries the disclaimer to that effect.
+  - **Before routine use:** have the accountant confirm KVKK standard contracts for transfers of borrower data abroad, and Kenyan withholding tax on fees.
 - **The business:** borrowers and introducers bring financing inquiries to Sameed. You screen each one as a lender's credit officer would, before Sameed decides whether to send it to his lenders. Protecting Sameed's standing with his lenders comes before any single deal.
 - **Products:**
   - Jetty Credit: a paid, three-tier bankability assessment engine.
@@ -286,6 +295,7 @@ Example: the COTRISEL Second Request. Chapra & Co. letterhead, formal register, 
   - there is no VAT or PAYE obligation on the PIN;
   - no promoter equity is committed to the hotel;
   - DSCR on the existing business is about 0.56x at 16%.
+- **Letters:** summary of the request sent as CC/GAR/2026/002 (London letterhead), and reissued as CH/GAR/2026/002 on the Turkish letterhead, signed by Aarifah Loonat (25 Nov 2026).
 - **Status:** screened. Index 30, "Not yet fundable" at KES 45M; do not forward. A possible path is about KES 12.5M to 15M to refinance Amica and fund equipment, after the integrity gates are met. The hotel needs equity or a separate structure.
 
 ### COTRISEL (Brazil, cooperative refinancing)
@@ -327,7 +337,7 @@ The first information request was answered. The formal Second Request letter, a 
   1. A Mandate fee paid upfront looks like an advance-fee scheme. Options: free introductions, or a disclosed success fee.
   2. Counsel on the privacy notice, terms, the registered entity and the FCA perimeter.
   3. Brief Stripe in writing before connecting it.
-  4. Unify the email and web domains (chapraco.com against chapraandco.com).
+  4. Unify the email and web domains: the web domain is www.chapraandco.com (confirmed 25 Nov 2026); move email to the same domain.
 
 ## 12. How to adapt to new things (read this when anything is unfamiliar)
 
