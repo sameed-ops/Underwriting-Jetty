@@ -295,6 +295,7 @@ Example: the COTRISEL Second Request. Chapra & Co. letterhead, formal register, 
   - there is no VAT or PAYE obligation on the PIN;
   - no promoter equity is committed to the hotel;
   - DSCR on the existing business is about 0.56x at 16%.
+- **Engagement (25 Nov 2026):** engagement letter CH/GAR/2026/003 (USD 2,000 retainer; Phase 1 assessment, Phase 2 lender pack only once the documentary conditions are met; authority to verify with RWK & Associates, Amica and KRA; Turkish law) and pro forma CH-PF-2026-001 (VAT exempt as an export of services, art. 11/1-a; bank details to be completed). Not yet signed or paid.
 - **Letters:** summary of the request sent as CC/GAR/2026/002 (London letterhead), and reissued as CH/GAR/2026/002 on the Turkish letterhead, signed by Aarifah Loonat (25 Nov 2026).
 - **Status:** screened. Index 30, "Not yet fundable" at KES 45M; do not forward. A possible path is about KES 12.5M to 15M to refinance Amica and fund equipment, after the integrity gates are met. The hotel needs equity or a separate structure.
 
